@@ -29,7 +29,7 @@ speech.speak("hello brave new world")
 # first time it is slow but subsequent times its very 
 # quick and can be run without network connectivity.
 speech.setBackendType("GOOGLE") 
-speech.setLanguage("en")
+speech.setLanguage("tr")
 speech.speak("Hello World From Google.")
 speech.setLanguage("pt") # Google supports some language codes
 speech.speak("Hello World From Google.")
